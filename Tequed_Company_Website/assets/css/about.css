@@ -1,0 +1,19 @@
+.about1 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    background-image: url("http://demo2.themelexus.com/editech/wp-content/uploads/2021/03/bg-aboutus1.jpg");
+    text-align: center;
+    color: white;
+    height: 30%;
+}
+
+.about {
+    background-color: rgb(156, 199, 184);
+    margin: 20% 6% auto 6%;
+    /* color: rgba(204, 255, 175, 0.883); */
+    
+
+}

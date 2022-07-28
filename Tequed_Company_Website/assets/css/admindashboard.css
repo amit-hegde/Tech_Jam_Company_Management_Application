@@ -1,0 +1,55 @@
+.table {
+    margin: 5% 0px;
+    max-width: 1350px;
+}
+
+.table table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgba(233, 217, 217, 0.52);
+}
+
+.table .tablerows {
+    margin-top: 50px;
+    height: 300px;
+    overflow: scroll;
+}
+
+.table th,
+.table td {
+    border: 1px solid rgb(128, 117, 117);
+    padding: 2px;
+    text-align: center;
+   
+}
+.table td{
+     overflow-x: scroll;
+}
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.table button {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    color: rgb(226, 38, 38);
+}
+
+.a {
+    margin: 3%;
+    background-color: blanchedalmond;
+    padding: 1%;
+    overflow: scroll;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .show>.nav-link {
+    background-color: black;
+    color: white;
+    border-bottom: 3px solid #f33f3f;
+}
