@@ -1,0 +1,54 @@
+.mypp {
+    border-bottom: 3px solid black;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    background-color: saddlebrown;
+}
+
+h2 {
+    text-align: center;
+    color: pink;
+}
+
+.container1 {
+    background-color: aliceblue;
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 2%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.pagination a:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.pagination a:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
